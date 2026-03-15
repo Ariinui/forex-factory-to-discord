@@ -1,0 +1,439 @@
+ Je vais analyser ta demande et rechercher les solutions cloud gratuites disponibles pour exécuter ce système sans PC.  
+ Oui, c'est **100% faisable gratuitement** ! Voici la meilleure solution basée sur mes recherches :
+
+## 🎯 Solution Recommandée : **GitHub Actions + Webhook Discord**
+
+**Pourquoi c'est le meilleur choix gratuit :**
+- ✅ **Totalement gratuit** (2000 minutes/mois sur repo privé, illimité sur public)
+- ✅ **Cron jobs natifs** (planification hebdomadaire + checks toutes les minutes)
+- ✅ **Pas de serveur à gérer** (serverless)
+- ✅ **Fiable** (infrastructure GitHub)
+- ⚠️ **Limitation** : Les repos inactifs (+60j) désactivent les workflows (il suffit de faire un commit ou utiliser un service comme cron-job.org pour pinger)
+
+---
+
+## 🔧 Architecture du Système
+
+```
+┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
+│  GitHub Actions │────▶│  Python Script   │────▶│  Discord Webhook│
+│  (Cron Schedule)│     │  - Download ICS  │     │  - Résumé lun.  │
+│                 │     │  - Filter High   │     │  - Alertes 30min│
+│                 │     │  - UTC-10 conv.  │     │                 │
+└─────────────────┘     └──────────────────┘     └─────────────────┘
+        │
+        ▼
+┌─────────────────┐
+│  Cache JSON     │  (pour persister les événements entre runs)
+│  (GitHub Artifacts ou gist) │
+└─────────────────┘
+```
+
+---
+
+## 📁 Structure du Projet GitHub
+
+Crée un repo public (pour illimité) ou privé avec cette structure :
+
+```
+forex-factory-bridge/
+├── .github/
+│   └── workflows/
+│       ├── weekly_summary.yml    # Lundi matin
+│       └── alerts.yml            # Toutes les minutes (check 30min avant)
+├── src/
+│   ├── __init__.py
+│   ├── forex_factory.py          # Download & parse ICS/CSV
+│   ├── discord_webhook.py        # Envoi Discord
+│   └── timezone_converter.py     # UTC → UTC-10
+├── data/
+│   └── events_cache.json         # Cache des événements (commité)
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🔑 Fichiers de Configuration
+
+### 1. `.github/workflows/weekly_summary.yml`
+```yaml
+name: Résumé Hebdomadaire Forex
+
+on:
+  schedule:
+    # Tous les lundis à 8h00 UTC-10 = 18h00 UTC dimanche
+    - cron: '0 18 * * 0'
+  workflow_dispatch:  # Pour tester manuellement
+
+jobs:
+  weekly-summary:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Generate weekly summary
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TIMEZONE_OFFSET: '-10'
+        run: python src/weekly_summary.py
+```
+
+### 2. `.github/workflows/alerts.yml`
+```yaml
+name: Alertes 30min avant News
+
+on:
+  schedule:
+    # Toutes les minutes
+    - cron: '* * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-alerts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Check upcoming events
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TIMEZONE_OFFSET: '-10'
+        run: python src/check_alerts.py
+```
+
+### 3. `requirements.txt`
+```txt
+requests>=2.31.0
+icalendar>=5.0.0
+pytz>=2024.1
+python-dateutil>=2.8.2
+```
+
+---
+
+## 🐍 Code Python
+
+### `src/forex_factory.py` (Download & Parser)
+```python
+import requests
+import json
+from datetime import datetime, timedelta
+from icalendar import Calendar
+import pytz
+
+class ForexFactoryBridge:
+    def __init__(self, timezone_offset=-10):
+        self.timezone_offset = timezone_offset
+        self.target_tz = pytz.FixedOffset(timezone_offset * 60)
+        self.ics_url = "https://cdn-nfs.faireconomy.media/ff_calendar_thisweek.ics"
+        
+    def download_calendar(self):
+        """Télécharge le calendrier ICS de Forex Factory"""
+        try:
+            response = requests.get(self.ics_url, timeout=30)
+            response.raise_for_status()
+            return response.content
+        except Exception as e:
+            print(f"Erreur download: {e}")
+            return None
+    
+    def parse_ics(self, ics_content):
+        """Parse l'ICS et filtre uniquement High Impact"""
+        events = []
+        try:
+            cal = Calendar.from_ical(ics_content)
+            
+            for component in cal.walk():
+                if component.name == "VEVENT":
+                    # Vérifier l'impact (High = 3 étoiles)
+                    impact = str(component.get('description', ''))
+                    
+                    if 'High' in impact or '★★★' in impact:
+                        event = {
+                            'title': str(component.get('summary', '')),
+                            'datetime': component.get('dtstart').dt,
+                            'currency': str(component.get('summary', '')).split(' ')[0] if ' ' in str(component.get('summary', '')) else 'Unknown',
+                            'impact': 'High',
+                            'description': impact
+                        }
+                        events.append(event)
+                        
+        except Exception as e:
+            print(f"Erreur parsing: {e}")
+            
+        return events
+    
+    def convert_to_local(self, events):
+        """Convertit les timestamps vers UTC-10"""
+        converted = []
+        utc = pytz.UTC
+        
+        for event in events:
+            dt = event['datetime']
+            if dt.tzinfo is None:
+                dt = utc.localize(dt)
+            
+            # Conversion UTC → UTC-10
+            local_dt = dt.astimezone(self.target_tz)
+            event['local_datetime'] = local_dt
+            event['local_time_str'] = local_dt.strftime('%Y-%m-%d %H:%M')
+            converted.append(event)
+            
+        return converted
+    
+    def get_weekly_events(self):
+        """Pipeline complet: download → parse → convert"""
+        ics = self.download_calendar()
+        if not ics:
+            return []
+        
+        events = self.parse_ics(ics)
+        return self.convert_to_local(events)
+```
+
+### `src/discord_webhook.py` (Envoi Discord)
+```python
+import requests
+import json
+from datetime import datetime
+
+class DiscordNotifier:
+    def __init__(self, webhook_url):
+        self.webhook_url = webhook_url
+        
+    def send_weekly_summary(self, events):
+        """Envoie le résumé hebdomadaire formaté"""
+        if not events:
+            return
+            
+        # Grouper par jour
+        by_day = {}
+        for e in events:
+            day = e['local_datetime'].strftime('%A %d %B')
+            if day not in by_day:
+                by_day[day] = []
+            by_day[day].append(e)
+        
+        # Construire l'embed
+        embed = {
+            "title": "📅 Calendrier Forex Factory - Cette Semaine",
+            "description": f"🎯 **{len(events)}** news à fort impact (UTC-10)",
+            "color": 0xff6b6b,
+            "fields": [],
+            "footer": {"text": "NewsBridge MT4 Cloud • UTC-10 (Tahiti/Hawaii)"},
+            "timestamp": datetime.utcnow().isoformat()
+        }
+        
+        for day, day_events in sorted(by_day.items()):
+            value = ""
+            for ev in sorted(day_events, key=lambda x: x['local_datetime']):
+                time = ev['local_datetime'].strftime('%H:%M')
+                value += f"🔴 `{time}` **{ev['currency']}** - {ev['title']}\n"
+            
+            embed["fields"].append({
+                "name": f"📌 {day}",
+                "value": value[:1024] or "Aucun événement",  # Limite Discord
+                "inline": False
+            })
+        
+        payload = {"embeds": [embed]}
+        return self._send(payload)
+    
+    def send_alert(self, event, minutes_before=30):
+        """Alerte 30 minutes avant un événement"""
+        time_str = event['local_datetime'].strftime('%H:%M')
+        
+        embed = {
+            "title": "⚠️ ALERTE NEWS - 30 MINUTES",
+            "description": f"**{event['currency']}** - {event['title']}",
+            "color": 0xff0000,
+            "fields": [
+                {
+                    "name": "🕐 Heure locale (UTC-10)",
+                    "value": f"`{time_str}`",
+                    "inline": True
+                },
+                {
+                    "name": "💥 Impact",
+                    "value": "🔴🔴🔴 HIGH",
+                    "inline": True
+                }
+            ],
+            "footer": {"text": "Préparez vos positions!"},
+            "timestamp": datetime.utcnow().isoformat()
+        }
+        
+        payload = {"embeds": [embed]}
+        return self._send(payload)
+    
+    def _send(self, payload):
+        """Envoi HTTP au webhook"""
+        try:
+            response = requests.post(
+                self.webhook_url,
+                json=payload,
+                headers={'Content-Type': 'application/json'},
+                timeout=10
+            )
+            response.raise_for_status()
+            return True
+        except Exception as e:
+            print(f"Erreur Discord: {e}")
+            return False
+```
+
+### `src/weekly_summary.py` (Script Lundi Matin)
+```python
+import os
+import json
+from forex_factory import ForexFactoryBridge
+from discord_webhook import DiscordNotifier
+
+def main():
+    # Config
+    webhook_url = os.environ['DISCORD_WEBHOOK']
+    tz_offset = int(os.environ.get('TIMEZONE_OFFSET', -10))
+    
+    # Récupérer les events
+    bridge = ForexFactoryBridge(timezone_offset=tz_offset)
+    events = bridge.get_weekly_events()
+    
+    if not events:
+        print("Aucun événement trouvé")
+        return
+    
+    # Sauvegarder pour les alertes
+    with open('data/events_cache.json', 'w') as f:
+        # Sérialiser les datetime
+        serializable = []
+        for e in events:
+            e_copy = e.copy()
+            e_copy['datetime'] = e['datetime'].isoformat()
+            e_copy['local_datetime'] = e['local_datetime'].isoformat()
+            serializable.append(e_copy)
+        json.dump(serializable, f, indent=2)
+    
+    # Envoyer résumé Discord
+    notifier = DiscordNotifier(webhook_url)
+    success = notifier.send_weekly_summary(events)
+    
+    print(f"Résumé envoyé: {success} | {len(events)} events")
+
+if __name__ == "__main__":
+    main()
+```
+
+### `src/check_alerts.py` (Vérification Minute par Minute)
+```python
+import os
+import json
+from datetime import datetime, timedelta
+from dateutil import parser
+from discord_webhook import DiscordNotifier
+
+def main():
+    webhook_url = os.environ['DISCORD_WEBHOOK']
+    
+    # Charger les events du cache
+    try:
+        with open('data/events_cache.json', 'r') as f:
+            events = json.load(f)
+    except FileNotFoundError:
+        print("Pas de cache trouvé")
+        return
+    
+    now = datetime.now(pytz.FixedOffset(int(os.environ.get('TIMEZONE_OFFSET', -10)) * 60))
+    alert_window = now + timedelta(minutes=30)
+    
+    notifier = DiscordNotifier(webhook_url)
+    alerts_sent = 0
+    
+    for event in events:
+        event_time = parser.isoparse(event['local_datetime'])
+        
+        # Vérifier si l'event est dans exactement 30 minutes (±1 minute)
+        time_diff = (event_time - now).total_seconds() / 60
+        if 29 <= time_diff <= 31:
+            # Reconstruire l'objet event pour l'alerte
+            event['local_datetime'] = event_time
+            if notifier.send_alert(event):
+                alerts_sent += 1
+                print(f"Alerte envoyée: {event['title']}")
+    
+    print(f"Total alertes: {alerts_sent}")
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+## 🔐 Configuration GitHub Secrets
+
+Dans ton repo GitHub → Settings → Secrets and variables → Actions → New repository secret :
+- **Name** : `DISCORD_WEBHOOK`
+- **Secret** : `https://discord.com/api/webhooks/TON_WEBHOOK_ID/TON_TOKEN`
+
+---
+
+## 🆚 Alternatives Gratuites (si GitHub Actions pose problème)
+
+| Solution | Avantage | Inconvénient |
+|----------|----------|--------------|
+| **PythonAnywhere**  | Simple, Python natif | **Scheduled tasks payantes** depuis janvier 2026 (nouveaux users) |
+| **Render.com**  | 750h/mois gratuit | Service web sleep après 15min, cron jobs payant ($1/mois) |
+| **Railway.app**  | Moderne | **Plus de free tier** depuis 2024 |
+| **cron-job.org** + GitHub | Gratuit, fiable | Nécessite un endpoint web (plus complexe) |
+
+---
+
+## ✅ Checklist de Mise en Place
+
+1. **Créer** le repo GitHub (public = illimité)
+2. **Ajouter** les fichiers ci-dessus
+3. **Configurer** le Secret `DISCORD_WEBHOOK`
+4. **Tester** manuellement via l'onglet Actions → Run workflow
+5. **Vérifier** que le résumé arrive bien lundi
+6. **Surveiller** les alertes 30min avant chaque news
+
+**Astuce** : Pour éviter la désactivation après 60j d'inactivité sur GitHub, ajoute ce workflow qui fait un commit auto toutes les semaines :
+
+```yaml
+name: Keep Alive
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Dimanche minuit
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          date > .last-run
+          git add .last-run
+          git commit -m "Keep alive" || exit 0
+          git push
+```
+
+Ce système est **complètement gratuit**, **cloud-native**, et ne nécessite **aucune maintenance** ! 🚀

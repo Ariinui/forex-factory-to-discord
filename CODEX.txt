@@ -1,0 +1,34 @@
+• Le systeme est maintenant en place dans C:
+  \Users\ariin\Desktop\Forex factory to Discord. Le coeur du projet
+  est dans [config.py](/C:/Users/ariin/Desktop/Forex factory to
+  Discord/src/config.py#L11), [forex_factory.py](/C:/Users/ariin/
+  Desktop/Forex factory to Discord/src/forex_factory.py#L83),
+  [weekly_summary.py](/C:/Users/ariin/Desktop/Forex factory to
+  Discord/src/weekly_summary.py#L12) et [check_alerts.py](/C:/Users/
+  ariin/Desktop/Forex factory to Discord/src/check_alerts.py#L33).
+  Les workflows GitHub sont prets dans [weekly_summary.yml](/C:/
+  Users/ariin/Desktop/Forex factory to Discord/.github/workflows/
+  weekly_summary.yml#L6) et [alert_check.yml](/C:/Users/ariin/
+  Desktop/Forex factory to Discord/.github/workflows/
+  alert_check.yml#L6). La doc d’installation et les corrections
+  importantes sont resumees dans [README.md](/C:/Users/ariin/
+  Desktop/Forex factory to Discord/README.md#L36) et [README.md](/
+  C:/Users/ariin/Desktop/Forex factory to Discord/README.md#L96).
+
+  J’ai corrige plusieurs points du fichier texte initial: le flux
+  ICS valide est nfs.faireconomy.media, pas cdn-nfs; le cron du
+  resume hebdo pour Tahiti est bien lundi 18:00 UTC; et sur GitHub
+  a prepare 4 embeds pour le resume, et n’a trouve aucune alerte
+  immediate a envoyer. Je n’ai pas envoye de vrai message Discord
+  pendant la verification.
+
+  Il reste seulement a pousser ce dossier sur GitHub, creer le
+  secret DISCORD_WEBHOOK_URL, puis activer Settings -> Actions ->
+  General -> Workflow permissions -> Read and write permissions.
+
+  Sources: Forex Factory ICS feed
+  (https://nfs.faireconomy.media/ff_calendar_thisweek.ics), GitHub
+  Actions schedule docs
+  (https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule),
+  GitHub workflow permissions docs
+  (https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#permissions).

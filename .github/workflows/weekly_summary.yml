@@ -1,0 +1,54 @@
+name: Weekly Summary
+
+on:
+  schedule:
+    # Monday 08:00 in Pacific/Tahiti = Monday 18:00 UTC
+    - cron: "0 18 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: forex-factory-state-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  weekly-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Generate summary and refresh state
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          APP_TIMEZONE: Pacific/Tahiti
+          ALERT_LEAD_MINUTES: 30
+          ALERT_WINDOW_MINUTES: 7
+          CALENDAR_REFRESH_HOURS: 12
+          DISCORD_ALERT_MENTION: "@everyone"
+        run: python -m src.weekly_summary
+
+      - name: Commit state file
+        run: |
+          if git diff --quiet -- data/state.json; then
+            echo "No state change to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          git commit -m "chore: refresh forex state [skip ci]"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
