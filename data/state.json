@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-23T06:45:23.809703+00:00",
-  "last_summary_sent_at": "2026-03-16T18:42:49.485483+00:00",
+  "generated_at": "2026-03-23T18:35:52.524258+00:00",
+  "last_summary_sent_at": "2026-03-23T18:35:53.054407+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -47,7 +47,7 @@
     {
       "uid": "149764",
       "summary": "\u2042 US Flash Manufacturing PMI",
-      "description": "Impact: High\n\nPrevious: 51.2\n\nView Event: https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 51.3\n\nPrevious: 51.2\n\nView Event: https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
       "currency": "USD",
       "impact": "High",
@@ -57,7 +57,7 @@
     {
       "uid": "149776",
       "summary": "\u2042 US Flash Services PMI",
-      "description": "Impact: High\n\nPrevious: 52.3\n\nView Event: https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
+      "description": "Impact: High\n\nForecast: 52.1\n\nPrevious: 52.3\n\nView Event: https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
       "url": "https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
       "currency": "USD",
       "impact": "High",
