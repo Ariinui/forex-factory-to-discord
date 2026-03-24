@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T18:35:52.524258+00:00",
+  "generated_at": "2026-03-24T07:33:41.927534+00:00",
   "last_summary_sent_at": "2026-03-23T18:35:53.054407+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -7,7 +7,7 @@
     {
       "uid": "147616",
       "summary": "\u2042 GE Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 49.8\n\nPrevious: 50.7\n\nView Event: https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 49.6\n\nPrevious: 50.7\n\nView Event: https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
       "currency": "EUR",
       "impact": "High",
@@ -27,7 +27,7 @@
     {
       "uid": "147621",
       "summary": "\u2042 UK Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 51.1\n\nPrevious: 52.0\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 50.0\n\nPrevious: 52.0\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
       "currency": "GBP",
       "impact": "High",
@@ -37,7 +37,7 @@
     {
       "uid": "147620",
       "summary": "\u2042 UK Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 53.0\n\nPrevious: 53.9\n\nView Event: https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
+      "description": "Impact: High\n\nForecast: 52.8\n\nPrevious: 53.9\n\nView Event: https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
       "url": "https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
       "currency": "GBP",
       "impact": "High",
@@ -47,7 +47,7 @@
     {
       "uid": "149764",
       "summary": "\u2042 US Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 51.3\n\nPrevious: 51.2\n\nView Event: https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 51.5\n\nPrevious: 51.2\n\nView Event: https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
       "currency": "USD",
       "impact": "High",
@@ -57,7 +57,7 @@
     {
       "uid": "149776",
       "summary": "\u2042 US Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 52.1\n\nPrevious: 52.3\n\nView Event: https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
+      "description": "Impact: High\n\nForecast: 52.0\n\nPrevious: 52.3\n\nView Event: https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
       "url": "https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
       "currency": "USD",
       "impact": "High",
@@ -67,7 +67,7 @@
     {
       "uid": "152592",
       "summary": "\u2042 AU CPI m/m",
-      "description": "Impact: High\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/98-au-cpi-mm",
+      "description": "Impact: High\n\nForecast: 0.1%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/98-au-cpi-mm",
       "url": "https://www.forexfactory.com/calendar/98-au-cpi-mm",
       "currency": "AUD",
       "impact": "High",
@@ -87,7 +87,7 @@
     {
       "uid": "152593",
       "summary": "\u2042 AU Trimmed Mean CPI m/m",
-      "description": "Impact: High\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
       "url": "https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
       "currency": "AUD",
       "impact": "High",
@@ -117,7 +117,7 @@
     {
       "uid": "151604",
       "summary": "\u2042 UK Retail Sales m/m",
-      "description": "Impact: High\n\nForecast: -0.3%\n\nPrevious: 1.8%\n\nView Event: https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
+      "description": "Impact: High\n\nForecast: -0.6%\n\nPrevious: 1.8%\n\nView Event: https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
       "url": "https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
       "currency": "GBP",
       "impact": "High",
