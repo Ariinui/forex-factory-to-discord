@@ -1,134 +1,119 @@
 {
-  "generated_at": "2026-03-29T03:33:06.221467+00:00",
+  "generated_at": "2026-03-29T05:27:33.000515+00:00",
   "last_summary_sent_at": "2026-03-23T18:35:53.054407+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
     {
-      "uid": "147616",
-      "summary": "\u2042 GE Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 49.6\n\nPrevious: 50.7\n\nView Event: https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
-      "url": "https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
-      "currency": "EUR",
-      "impact": "High",
-      "dt_utc": "2026-03-24T08:30:00+00:00",
-      "dt_local": "2026-03-23T22:30:00-10:00"
-    },
-    {
-      "uid": "147617",
-      "summary": "\u2042 GE Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 52.5\n\nPrevious: 53.4\n\nView Event: https://www.forexfactory.com/calendar/267-ge-flash-services-pmi",
-      "url": "https://www.forexfactory.com/calendar/267-ge-flash-services-pmi",
-      "currency": "EUR",
-      "impact": "High",
-      "dt_utc": "2026-03-24T08:30:00+00:00",
-      "dt_local": "2026-03-23T22:30:00-10:00"
-    },
-    {
-      "uid": "147621",
-      "summary": "\u2042 UK Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 50.0\n\nPrevious: 52.0\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
-      "url": "https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-03-24T09:30:00+00:00",
-      "dt_local": "2026-03-23T23:30:00-10:00"
-    },
-    {
-      "uid": "147620",
-      "summary": "\u2042 UK Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 52.8\n\nPrevious: 53.9\n\nView Event: https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
-      "url": "https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-03-24T09:30:00+00:00",
-      "dt_local": "2026-03-23T23:30:00-10:00"
-    },
-    {
-      "uid": "149764",
-      "summary": "\u2042 US Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 51.5\n\nPrevious: 51.2\n\nView Event: https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
-      "url": "https://www.forexfactory.com/calendar/552-us-flash-manufacturing-pmi",
+      "uid": "152789",
+      "summary": "\u2042 US Fed Chair Powell Speaks",
+      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/717-us-fed-chair-powell-speaks",
+      "url": "https://www.forexfactory.com/calendar/717-us-fed-chair-powell-speaks",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-24T13:45:00+00:00",
-      "dt_local": "2026-03-24T03:45:00-10:00"
+      "dt_utc": "2026-03-30T14:30:00+00:00",
+      "dt_local": "2026-03-30T04:30:00-10:00"
     },
     {
-      "uid": "149776",
-      "summary": "\u2042 US Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 52.0\n\nPrevious: 52.3\n\nView Event: https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
-      "url": "https://www.forexfactory.com/calendar/583-us-flash-services-pmi",
+      "uid": "146696",
+      "summary": "\u2042 CA GDP m/m",
+      "description": "Impact: High\n\nForecast: 0.0%\n\nPrevious: 0.2%\n\nView Event: https://www.forexfactory.com/calendar/29-ca-gdp-mm",
+      "url": "https://www.forexfactory.com/calendar/29-ca-gdp-mm",
+      "currency": "CAD",
+      "impact": "High",
+      "dt_utc": "2026-03-31T12:30:00+00:00",
+      "dt_local": "2026-03-31T02:30:00-10:00"
+    },
+    {
+      "uid": "149789",
+      "summary": "\u2042 US JOLTS Job Openings",
+      "description": "Impact: High\n\nForecast: 6.90M\n\nPrevious: 6.95M\n\nView Event: https://www.forexfactory.com/calendar/578-us-jolts-job-openings",
+      "url": "https://www.forexfactory.com/calendar/578-us-jolts-job-openings",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-24T13:45:00+00:00",
-      "dt_local": "2026-03-24T03:45:00-10:00"
+      "dt_utc": "2026-03-31T14:00:00+00:00",
+      "dt_local": "2026-03-31T04:00:00-10:00"
     },
     {
-      "uid": "152592",
-      "summary": "\u2042 AU CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.1%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/98-au-cpi-mm",
-      "url": "https://www.forexfactory.com/calendar/98-au-cpi-mm",
-      "currency": "AUD",
+      "uid": "150297",
+      "summary": "\u2042 US ADP Non-Farm Employment Change",
+      "description": "Impact: High\n\nForecast: 42K\n\nPrevious: 63K\n\nView Event: https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change",
+      "url": "https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change",
+      "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-25T00:30:00+00:00",
-      "dt_local": "2026-03-24T14:30:00-10:00"
+      "dt_utc": "2026-04-01T12:15:00+00:00",
+      "dt_local": "2026-04-01T02:15:00-10:00"
     },
     {
-      "uid": "149094",
-      "summary": "\u2042 AU CPI y/y",
-      "description": "Impact: High\n\nForecast: 3.8%\n\nPrevious: 3.8%\n\nView Event: https://www.forexfactory.com/calendar/888-au-cpi-yy",
-      "url": "https://www.forexfactory.com/calendar/888-au-cpi-yy",
-      "currency": "AUD",
+      "uid": "148040",
+      "summary": "\u2042 US Core Retail Sales m/m",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.0%\n\nView Event: https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
+      "url": "https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
+      "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-25T00:30:00+00:00",
-      "dt_local": "2026-03-24T14:30:00-10:00"
+      "dt_utc": "2026-04-01T12:30:00+00:00",
+      "dt_local": "2026-04-01T02:30:00-10:00"
     },
     {
-      "uid": "152593",
-      "summary": "\u2042 AU Trimmed Mean CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
-      "url": "https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
-      "currency": "AUD",
+      "uid": "148028",
+      "summary": "\u2042 US Retail Sales m/m",
+      "description": "Impact: High\n\nForecast: 0.4%\n\nPrevious: -0.2%\n\nView Event: https://www.forexfactory.com/calendar/102-us-retail-sales-mm",
+      "url": "https://www.forexfactory.com/calendar/102-us-retail-sales-mm",
+      "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-25T00:30:00+00:00",
-      "dt_local": "2026-03-24T14:30:00-10:00"
+      "dt_utc": "2026-04-01T12:30:00+00:00",
+      "dt_local": "2026-04-01T02:30:00-10:00"
     },
     {
-      "uid": "151415",
-      "summary": "\u2042 UK CPI y/y",
-      "description": "Impact: High\n\nForecast: 3.0%\n\nPrevious: 3.0%\n\nView Event: https://www.forexfactory.com/calendar/82-uk-cpi-yy",
-      "url": "https://www.forexfactory.com/calendar/82-uk-cpi-yy",
-      "currency": "GBP",
+      "uid": "146578",
+      "summary": "\u2042 US ISM Manufacturing PMI",
+      "description": "Impact: High\n\nForecast: 52.3\n\nPrevious: 52.4\n\nView Event: https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
+      "url": "https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
+      "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-25T07:00:00+00:00",
-      "dt_local": "2026-03-24T21:00:00-10:00"
+      "dt_utc": "2026-04-01T14:00:00+00:00",
+      "dt_local": "2026-04-01T04:00:00-10:00"
     },
     {
-      "uid": "146990",
+      "uid": "146991",
       "summary": "\u2042 US Unemployment Claims",
-      "description": "Impact: High\n\nForecast: 211K\n\nPrevious: 205K\n\nView Event: https://www.forexfactory.com/calendar/11-us-unemployment-claims",
+      "description": "Impact: High\n\nForecast: 212K\n\nPrevious: 210K\n\nView Event: https://www.forexfactory.com/calendar/11-us-unemployment-claims",
       "url": "https://www.forexfactory.com/calendar/11-us-unemployment-claims",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-26T12:30:00+00:00",
-      "dt_local": "2026-03-26T02:30:00-10:00"
+      "dt_utc": "2026-04-02T12:30:00+00:00",
+      "dt_local": "2026-04-02T02:30:00-10:00"
     },
     {
-      "uid": "151604",
-      "summary": "\u2042 UK Retail Sales m/m",
-      "description": "Impact: High\n\nForecast: -0.6%\n\nPrevious: 1.8%\n\nView Event: https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
-      "url": "https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
-      "currency": "GBP",
+      "uid": "146930",
+      "summary": "\u2042 US Average Hourly Earnings m/m",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
+      "url": "https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
+      "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-03-27T07:00:00+00:00",
-      "dt_local": "2026-03-26T21:00:00-10:00"
+      "dt_utc": "2026-04-03T12:30:00+00:00",
+      "dt_local": "2026-04-03T02:30:00-10:00"
+    },
+    {
+      "uid": "146906",
+      "summary": "\u2042 US Non-Farm Employment Change",
+      "description": "Impact: High\n\nForecast: 56K\n\nPrevious: -92K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-04-03T12:30:00+00:00",
+      "dt_local": "2026-04-03T02:30:00-10:00"
+    },
+    {
+      "uid": "146918",
+      "summary": "\u2042 US Unemployment Rate",
+      "description": "Impact: High\n\nForecast: 4.4%\n\nPrevious: 4.4%\n\nView Event: https://www.forexfactory.com/calendar/56-us-unemployment-rate",
+      "url": "https://www.forexfactory.com/calendar/56-us-unemployment-rate",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-04-03T12:30:00+00:00",
+      "dt_local": "2026-04-03T02:30:00-10:00"
     }
   ],
-  "sent_alerts": [
-    "146990|2026-03-26T12:30:00+00:00|30",
-    "149094|2026-03-25T00:30:00+00:00|30",
-    "152592|2026-03-25T00:30:00+00:00|30",
-    "152593|2026-03-25T00:30:00+00:00|30"
-  ]
+  "sent_alerts": []
 }
