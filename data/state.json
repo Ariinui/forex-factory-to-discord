@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T19:43:04.357805+00:00",
+  "generated_at": "2026-04-01T08:20:57.476113+00:00",
   "last_summary_sent_at": "2026-03-30T18:41:36.666651+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -75,6 +75,16 @@
       "dt_local": "2026-04-01T04:00:00-10:00"
     },
     {
+      "uid": "152798",
+      "summary": "\u2042 US President Trump Speaks",
+      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/645-us-president-trump-speaks",
+      "url": "https://www.forexfactory.com/calendar/645-us-president-trump-speaks",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-04-02T01:00:00+00:00",
+      "dt_local": "2026-04-01T15:00:00-10:00"
+    },
+    {
       "uid": "146991",
       "summary": "\u2042 US Unemployment Claims",
       "description": "Impact: High\n\nForecast: 212K\n\nPrevious: 210K\n\nView Event: https://www.forexfactory.com/calendar/11-us-unemployment-claims",
@@ -97,7 +107,7 @@
     {
       "uid": "146906",
       "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 63K\n\nPrevious: -92K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 65K\n\nPrevious: -92K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
