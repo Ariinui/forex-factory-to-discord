@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T06:10:38.688283+00:00",
+  "generated_at": "2026-04-20T18:39:56.075726+00:00",
   "last_summary_sent_at": "2026-04-13T18:55:49.081244+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -47,7 +47,7 @@
     {
       "uid": "151075",
       "summary": "\u2042 UK Claimant Count Change",
-      "description": "Impact: High\n\nForecast: 21.4K\n\nPrevious: 24.7K\n\nView Event: https://www.forexfactory.com/calendar/68-uk-claimant-count-change",
+      "description": "Impact: High\n\nForecast: 22.6K\n\nPrevious: 24.7K\n\nView Event: https://www.forexfactory.com/calendar/68-uk-claimant-count-change",
       "url": "https://www.forexfactory.com/calendar/68-uk-claimant-count-change",
       "currency": "GBP",
       "impact": "High",
@@ -57,7 +57,7 @@
     {
       "uid": "152774",
       "summary": "\u2042 US Core Retail Sales m/m",
-      "description": "Impact: High\n\nForecast: 1.3%\n\nPrevious: 0.5%\n\nView Event: https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
+      "description": "Impact: High\n\nForecast: 1.4%\n\nPrevious: 0.5%\n\nView Event: https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
       "url": "https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
       "currency": "USD",
       "impact": "High",
@@ -97,7 +97,7 @@
     {
       "uid": "147624",
       "summary": "\u2042 GE Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 51.3\n\nPrevious: 51.7\n\nView Event: https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 51.4\n\nPrevious: 51.7\n\nView Event: https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/266-ge-flash-manufacturing-pmi",
       "currency": "EUR",
       "impact": "High",
@@ -117,7 +117,7 @@
     {
       "uid": "147628",
       "summary": "\u2042 UK Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 50.2\n\nPrevious: 51.4\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 50.3\n\nPrevious: 51.4\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
       "currency": "GBP",
       "impact": "High",
@@ -137,7 +137,7 @@
     {
       "uid": "151605",
       "summary": "\u2042 UK Retail Sales m/m",
-      "description": "Impact: High\n\nForecast: 0.1%\n\nPrevious: -0.4%\n\nView Event: https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
+      "description": "Impact: High\n\nForecast: 0.0%\n\nPrevious: -0.4%\n\nView Event: https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
       "url": "https://www.forexfactory.com/calendar/105-uk-retail-sales-mm",
       "currency": "GBP",
       "impact": "High",
