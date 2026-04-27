@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-27T07:56:43.110621+00:00",
-  "last_summary_sent_at": "2026-04-20T18:45:27.405705+00:00",
+  "generated_at": "2026-04-27T19:00:05.372939+00:00",
+  "last_summary_sent_at": "2026-04-27T19:00:06.164845+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -167,7 +167,7 @@
     {
       "uid": "150712",
       "summary": "\u2042 UK MPC Official Bank Rate Votes",
-      "description": "Impact: High\n\nForecast: 0-0-9\n\nPrevious: 0-0-9\n\nView Event: https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
+      "description": "Impact: High\n\nForecast: 1-0-8\n\nPrevious: 0-0-9\n\nView Event: https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
       "url": "https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
       "currency": "GBP",
       "impact": "High",
@@ -183,6 +183,16 @@
       "impact": "High",
       "dt_utc": "2026-04-30T11:00:00+00:00",
       "dt_local": "2026-04-30T01:00:00-10:00"
+    },
+    {
+      "uid": "152887",
+      "summary": "\u2042 UK BOE Gov Bailey Speaks",
+      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
+      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
+      "currency": "GBP",
+      "impact": "High",
+      "dt_utc": "2026-04-30T11:30:00+00:00",
+      "dt_local": "2026-04-30T01:30:00-10:00"
     },
     {
       "uid": "150529",
