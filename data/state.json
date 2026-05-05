@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T19:08:26.009118+00:00",
+  "generated_at": "2026-05-05T08:29:53.565315+00:00",
   "last_summary_sent_at": "2026-05-04T19:08:26.710055+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -47,7 +47,7 @@
     {
       "uid": "146603",
       "summary": "\u2042 US ISM Services PMI",
-      "description": "Impact: High\n\nForecast: 53.8\n\nPrevious: 54.0\n\nView Event: https://www.forexfactory.com/calendar/253-us-ism-services-pmi",
+      "description": "Impact: High\n\nForecast: 53.7\n\nPrevious: 54.0\n\nView Event: https://www.forexfactory.com/calendar/253-us-ism-services-pmi",
       "url": "https://www.forexfactory.com/calendar/253-us-ism-services-pmi",
       "currency": "USD",
       "impact": "High",
@@ -57,7 +57,7 @@
     {
       "uid": "149790",
       "summary": "\u2042 US JOLTS Job Openings",
-      "description": "Impact: High\n\nForecast: 6.87M\n\nPrevious: 6.88M\n\nView Event: https://www.forexfactory.com/calendar/578-us-jolts-job-openings",
+      "description": "Impact: High\n\nForecast: 6.86M\n\nPrevious: 6.88M\n\nView Event: https://www.forexfactory.com/calendar/578-us-jolts-job-openings",
       "url": "https://www.forexfactory.com/calendar/578-us-jolts-job-openings",
       "currency": "USD",
       "impact": "High",
@@ -97,7 +97,7 @@
     {
       "uid": "149189",
       "summary": "\u2042 CA Employment Change",
-      "description": "Impact: High\n\nForecast: 5.1K\n\nPrevious: 14.1K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
+      "description": "Impact: High\n\nForecast: 11.6K\n\nPrevious: 14.1K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
       "url": "https://www.forexfactory.com/calendar/67-ca-employment-change",
       "currency": "CAD",
       "impact": "High",
@@ -127,7 +127,7 @@
     {
       "uid": "146907",
       "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 60K\n\nPrevious: 178K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 64K\n\nPrevious: 178K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
