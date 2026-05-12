@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T08:03:54.616096+00:00",
+  "generated_at": "2026-05-12T20:57:44.292632+00:00",
   "last_summary_sent_at": "2026-05-11T19:21:34.206961+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -35,16 +35,6 @@
       "dt_local": "2026-05-12T02:30:00-10:00"
     },
     {
-      "uid": "152888",
-      "summary": "\u2042 US Fed Chair Nomination Vote",
-      "description": "Impact: High\n\nForecast: Pass\n\nView Event: https://www.forexfactory.com/calendar/487-us-fed-chair-nomination-vote",
-      "url": "https://www.forexfactory.com/calendar/487-us-fed-chair-nomination-vote",
-      "currency": "USD",
-      "impact": "High",
-      "dt_utc": "2026-05-12T16:00:00+00:00",
-      "dt_local": "2026-05-12T06:00:00-10:00"
-    },
-    {
       "uid": "148399",
       "summary": "\u2042 US Core PPI m/m",
       "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.1%\n\nView Event: https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
@@ -63,6 +53,16 @@
       "impact": "High",
       "dt_utc": "2026-05-13T12:30:00+00:00",
       "dt_local": "2026-05-13T02:30:00-10:00"
+    },
+    {
+      "uid": "152888",
+      "summary": "\u2042 US Fed Chair Nomination Vote",
+      "description": "Impact: High\n\nForecast: Pass\n\nView Event: https://www.forexfactory.com/calendar/487-us-fed-chair-nomination-vote",
+      "url": "https://www.forexfactory.com/calendar/487-us-fed-chair-nomination-vote",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-05-13T16:29:00+00:00",
+      "dt_local": "2026-05-13T06:29:00-10:00"
     },
     {
       "uid": "151534",
