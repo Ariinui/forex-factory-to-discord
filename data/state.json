@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T11:02:07.694198+00:00",
+  "generated_at": "2026-05-14T00:00:14.982924+00:00",
   "last_summary_sent_at": "2026-05-11T19:21:34.206961+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -61,8 +61,8 @@
       "url": "https://www.forexfactory.com/calendar/487-us-fed-chair-nomination-vote",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-05-13T16:29:00+00:00",
-      "dt_local": "2026-05-13T06:29:00-10:00"
+      "dt_utc": "2026-05-13T18:40:00+00:00",
+      "dt_local": "2026-05-13T08:40:00-10:00"
     },
     {
       "uid": "151534",
@@ -95,7 +95,5 @@
       "dt_local": "2026-05-14T02:30:00-10:00"
     }
   ],
-  "sent_alerts": [
-    "152888|2026-05-13T16:29:00+00:00|30"
-  ]
+  "sent_alerts": []
 }
