@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T08:16:48.901114+00:00",
+  "generated_at": "2026-05-19T21:01:50.268266+00:00",
   "last_summary_sent_at": "2026-05-18T19:18:43.058689+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -63,26 +63,6 @@
       "impact": "High",
       "dt_utc": "2026-05-21T01:30:00+00:00",
       "dt_local": "2026-05-20T15:30:00-10:00"
-    },
-    {
-      "uid": "147637",
-      "summary": "\u2042 UK Flash Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 52.8\n\nPrevious: 53.6\n\nView Event: https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
-      "url": "https://www.forexfactory.com/calendar/837-uk-flash-manufacturing-pmi",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-05-21T08:30:00+00:00",
-      "dt_local": "2026-05-20T22:30:00-10:00"
-    },
-    {
-      "uid": "147636",
-      "summary": "\u2042 UK Flash Services PMI",
-      "description": "Impact: High\n\nForecast: 51.7\n\nPrevious: 52.0\n\nView Event: https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
-      "url": "https://www.forexfactory.com/calendar/836-uk-flash-services-pmi",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-05-21T08:30:00+00:00",
-      "dt_local": "2026-05-20T22:30:00-10:00"
     },
     {
       "uid": "152947",
