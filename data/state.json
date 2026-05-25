@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-25T10:46:29.017226+00:00",
-  "last_summary_sent_at": "2026-05-18T19:18:43.058689+00:00",
+  "generated_at": "2026-05-25T19:09:36.459444+00:00",
+  "last_summary_sent_at": "2026-05-25T19:09:36.795227+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -87,7 +87,7 @@
     {
       "uid": "148289",
       "summary": "\u2042 US Prelim GDP q/q",
-      "description": "Impact: High\n\nForecast: 2.1%\n\nPrevious: 0.7%\n\nView Event: https://www.forexfactory.com/calendar/27-us-prelim-gdp-qq",
+      "description": "Impact: High\n\nForecast: 2.0%\n\nPrevious: 0.7%\n\nView Event: https://www.forexfactory.com/calendar/27-us-prelim-gdp-qq",
       "url": "https://www.forexfactory.com/calendar/27-us-prelim-gdp-qq",
       "currency": "USD",
       "impact": "High",
