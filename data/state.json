@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-01T08:40:46.562986+00:00",
-  "last_summary_sent_at": "2026-05-25T19:09:36.795227+00:00",
+  "generated_at": "2026-06-01T21:17:41.903504+00:00",
+  "last_summary_sent_at": "2026-06-01T21:17:42.361903+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -47,7 +47,7 @@
     {
       "uid": "150302",
       "summary": "\u2042 US ADP Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 116K\n\nPrevious: 109K\n\nView Event: https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 118K\n\nPrevious: 109K\n\nView Event: https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
@@ -117,7 +117,7 @@
     {
       "uid": "146908",
       "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 95K\n\nPrevious: 115K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 87K\n\nPrevious: 115K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
