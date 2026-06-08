@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08T11:25:12.746104+00:00",
-  "last_summary_sent_at": "2026-06-01T21:17:42.361903+00:00",
+  "generated_at": "2026-06-08T19:54:44.816306+00:00",
+  "last_summary_sent_at": "2026-06-08T19:54:45.749842+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -127,7 +127,7 @@
     {
       "uid": "151542",
       "summary": "\u2042 UK GDP m/m",
-      "description": "Impact: High\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/804-uk-gdp-mm",
+      "description": "Impact: High\n\nForecast: -0.1%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/804-uk-gdp-mm",
       "url": "https://www.forexfactory.com/calendar/804-uk-gdp-mm",
       "currency": "GBP",
       "impact": "High",
