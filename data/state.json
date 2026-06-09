@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:54:44.816306+00:00",
+  "generated_at": "2026-06-09T09:30:37.480828+00:00",
   "last_summary_sent_at": "2026-06-08T19:54:45.749842+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -7,7 +7,7 @@
     {
       "uid": "148363",
       "summary": "\u2042 US Core CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.5%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/79-us-core-cpi-mm",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/79-us-core-cpi-mm",
       "url": "https://www.forexfactory.com/calendar/79-us-core-cpi-mm",
       "currency": "USD",
       "impact": "High",
@@ -27,7 +27,7 @@
     {
       "uid": "148331",
       "summary": "\u2042 US CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.6%\n\nView Event: https://www.forexfactory.com/calendar/78-us-cpi-mm",
+      "description": "Impact: High\n\nForecast: 0.5%\n\nPrevious: 0.6%\n\nView Event: https://www.forexfactory.com/calendar/78-us-cpi-mm",
       "url": "https://www.forexfactory.com/calendar/78-us-cpi-mm",
       "currency": "USD",
       "impact": "High",
