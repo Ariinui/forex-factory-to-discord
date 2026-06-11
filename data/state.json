@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T23:43:15.006447+00:00",
+  "generated_at": "2026-06-11T11:46:01.170387+00:00",
   "last_summary_sent_at": "2026-06-08T19:54:45.749842+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -135,5 +135,8 @@
       "dt_local": "2026-06-11T20:00:00-10:00"
     }
   ],
-  "sent_alerts": []
+  "sent_alerts": [
+    "150532|2026-06-11T12:15:00+00:00|30",
+    "150533|2026-06-11T12:15:00+00:00|30"
+  ]
 }
