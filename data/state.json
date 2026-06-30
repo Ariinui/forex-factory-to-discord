@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T19:28:00.706631+00:00",
+  "generated_at": "2026-06-30T08:21:16.201301+00:00",
   "last_summary_sent_at": "2026-06-29T19:28:01.043279+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -37,7 +37,7 @@
     {
       "uid": "146581",
       "summary": "\u2042 US ISM Manufacturing PMI",
-      "description": "Impact: High\n\nForecast: 53.7\n\nPrevious: 54.0\n\nView Event: https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
+      "description": "Impact: High\n\nForecast: 53.8\n\nPrevious: 54.0\n\nView Event: https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
       "url": "https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
       "currency": "USD",
       "impact": "High",
@@ -57,7 +57,7 @@
     {
       "uid": "146909",
       "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 114K\n\nPrevious: 172K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 110K\n\nPrevious: 172K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
