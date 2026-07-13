@@ -1,19 +1,9 @@
 {
-  "generated_at": "2026-07-13T09:36:01.382637+00:00",
-  "last_summary_sent_at": "2026-07-06T19:25:09.456475+00:00",
+  "generated_at": "2026-07-13T19:06:19.575866+00:00",
+  "last_summary_sent_at": "2026-07-13T19:06:20.166789+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
-    {
-      "uid": "153396",
-      "summary": "\u2042 UK BOE Gov Bailey Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-14T08:45:00+00:00",
-      "dt_local": "2026-07-13T22:45:00-10:00"
-    },
     {
       "uid": "148364",
       "summary": "\u2042 US Core CPI m/m",
@@ -77,7 +67,7 @@
     {
       "uid": "148401",
       "summary": "\u2042 US Core PPI m/m",
-      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
+      "description": "Impact: High\n\nForecast: 0.4%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
       "url": "https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
       "currency": "USD",
       "impact": "High",
@@ -141,13 +131,13 @@
       "url": "https://www.forexfactory.com/calendar/471-ca-boc-press-conference",
       "currency": "CAD",
       "impact": "High",
-      "dt_utc": "2026-07-15T14:30:00+00:00",
-      "dt_local": "2026-07-15T04:30:00-10:00"
+      "dt_utc": "2026-07-15T14:45:00+00:00",
+      "dt_local": "2026-07-15T04:45:00-10:00"
     },
     {
       "uid": "151546",
       "summary": "\u2042 UK GDP m/m",
-      "description": "Impact: High\n\nForecast: 0.1%\n\nPrevious: -0.1%\n\nView Event: https://www.forexfactory.com/calendar/804-uk-gdp-mm",
+      "description": "Impact: High\n\nForecast: 0.0%\n\nPrevious: -0.1%\n\nView Event: https://www.forexfactory.com/calendar/804-uk-gdp-mm",
       "url": "https://www.forexfactory.com/calendar/804-uk-gdp-mm",
       "currency": "GBP",
       "impact": "High",
