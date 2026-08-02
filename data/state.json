@@ -1,201 +1,89 @@
 {
-  "generated_at": "2026-08-02T01:16:29.013014+00:00",
+  "generated_at": "2026-08-02T04:43:50.471236+00:00",
   "last_summary_sent_at": "2026-07-27T19:04:39.927085+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
     {
-      "uid": "153404",
-      "summary": "\u2042 AU RBA Gov Bullock Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/671-au-rba-gov-bullock-speaks",
-      "url": "https://www.forexfactory.com/calendar/671-au-rba-gov-bullock-speaks",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-07-28T03:05:00+00:00",
-      "dt_local": "2026-07-27T17:05:00-10:00"
-    },
-    {
-      "uid": "149107",
-      "summary": "\u2042 AU CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.2%\n\nPrevious: -0.7%\n\nView Event: https://www.forexfactory.com/calendar/98-au-cpi-mm",
-      "url": "https://www.forexfactory.com/calendar/98-au-cpi-mm",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-07-29T01:30:00+00:00",
-      "dt_local": "2026-07-28T15:30:00-10:00"
-    },
-    {
-      "uid": "149098",
-      "summary": "\u2042 AU CPI y/y",
-      "description": "Impact: High\n\nForecast: 4.0%\n\nPrevious: 4.0%\n\nView Event: https://www.forexfactory.com/calendar/888-au-cpi-yy",
-      "url": "https://www.forexfactory.com/calendar/888-au-cpi-yy",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-07-29T01:30:00+00:00",
-      "dt_local": "2026-07-28T15:30:00-10:00"
-    },
-    {
-      "uid": "149111",
-      "summary": "\u2042 AU Trimmed Mean CPI m/m",
-      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
-      "url": "https://www.forexfactory.com/calendar/99-au-trimmed-mean-cpi-mm",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-07-29T01:30:00+00:00",
-      "dt_local": "2026-07-28T15:30:00-10:00"
-    },
-    {
-      "uid": "146498",
-      "summary": "\u2042 US Federal Funds Rate",
-      "description": "Impact: High\n\nForecast: 3.75%\n\nPrevious: 3.75%\n\nView Event: https://www.forexfactory.com/calendar/1-us-federal-funds-rate",
-      "url": "https://www.forexfactory.com/calendar/1-us-federal-funds-rate",
+      "uid": "146582",
+      "summary": "\u2042 US ISM Manufacturing PMI",
+      "description": "Impact: High\n\nForecast: 54.0\n\nPrevious: 53.3\n\nView Event: https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
+      "url": "https://www.forexfactory.com/calendar/252-us-ism-manufacturing-pmi",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-07-29T18:00:00+00:00",
-      "dt_local": "2026-07-29T08:00:00-10:00"
+      "dt_utc": "2026-08-03T14:00:00+00:00",
+      "dt_local": "2026-08-03T04:00:00-10:00"
     },
     {
-      "uid": "146506",
-      "summary": "\u2042 US FOMC Statement",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/4-us-fomc-statement",
-      "url": "https://www.forexfactory.com/calendar/4-us-fomc-statement",
-      "currency": "USD",
+      "uid": "149117",
+      "summary": "\u2042 NZ Employment Change q/q",
+      "description": "Impact: High\n\nForecast: 0.1%\n\nPrevious: 0.2%\n\nView Event: https://www.forexfactory.com/calendar/74-nz-employment-change-qq",
+      "url": "https://www.forexfactory.com/calendar/74-nz-employment-change-qq",
+      "currency": "NZD",
       "impact": "High",
-      "dt_utc": "2026-07-29T18:00:00+00:00",
-      "dt_local": "2026-07-29T08:00:00-10:00"
+      "dt_utc": "2026-08-04T22:45:00+00:00",
+      "dt_local": "2026-08-04T12:45:00-10:00"
     },
     {
-      "uid": "146518",
-      "summary": "\u2042 US FOMC Press Conference",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/512-us-fomc-press-conference",
-      "url": "https://www.forexfactory.com/calendar/512-us-fomc-press-conference",
-      "currency": "USD",
+      "uid": "149118",
+      "summary": "\u2042 NZ Unemployment Rate",
+      "description": "Impact: High\n\nForecast: 5.4%\n\nPrevious: 5.3%\n\nView Event: https://www.forexfactory.com/calendar/65-nz-unemployment-rate",
+      "url": "https://www.forexfactory.com/calendar/65-nz-unemployment-rate",
+      "currency": "NZD",
       "impact": "High",
-      "dt_utc": "2026-07-29T18:30:00+00:00",
-      "dt_local": "2026-07-29T08:30:00-10:00"
+      "dt_utc": "2026-08-04T22:45:00+00:00",
+      "dt_local": "2026-08-04T12:45:00-10:00"
     },
     {
-      "uid": "150716",
-      "summary": "\u2042 UK BOE Monetary Policy Report",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/418-uk-boe-monetary-policy-report",
-      "url": "https://www.forexfactory.com/calendar/418-uk-boe-monetary-policy-report",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-30T11:00:00+00:00",
-      "dt_local": "2026-07-30T01:00:00-10:00"
-    },
-    {
-      "uid": "150718",
-      "summary": "\u2042 UK Monetary Policy Summary",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/628-uk-monetary-policy-summary",
-      "url": "https://www.forexfactory.com/calendar/628-uk-monetary-policy-summary",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-30T11:00:00+00:00",
-      "dt_local": "2026-07-30T01:00:00-10:00"
-    },
-    {
-      "uid": "150719",
-      "summary": "\u2042 UK MPC Official Bank Rate Votes",
-      "description": "Impact: High\n\nForecast: 2-0-7\n\nPrevious: 2-0-7\n\nView Event: https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
-      "url": "https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-30T11:00:00+00:00",
-      "dt_local": "2026-07-30T01:00:00-10:00"
-    },
-    {
-      "uid": "150717",
-      "summary": "\u2042 UK Official Bank Rate",
-      "description": "Impact: High\n\nForecast: 3.75%\n\nPrevious: 3.75%\n\nView Event: https://www.forexfactory.com/calendar/15-uk-official-bank-rate",
-      "url": "https://www.forexfactory.com/calendar/15-uk-official-bank-rate",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-30T11:00:00+00:00",
-      "dt_local": "2026-07-30T01:00:00-10:00"
-    },
-    {
-      "uid": "153409",
-      "summary": "\u2042 UK BOE Gov Bailey Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-07-30T12:00:00+00:00",
-      "dt_local": "2026-07-30T02:00:00-10:00"
-    },
-    {
-      "uid": "148273",
-      "summary": "\u2042 US Advance GDP q/q",
-      "description": "Impact: High\n\nForecast: 2.1%\n\nPrevious: 2.0%\n\nView Event: https://www.forexfactory.com/calendar/2-us-advance-gdp-qq",
-      "url": "https://www.forexfactory.com/calendar/2-us-advance-gdp-qq",
-      "currency": "USD",
-      "impact": "High",
-      "dt_utc": "2026-07-30T12:30:00+00:00",
-      "dt_local": "2026-07-30T02:30:00-10:00"
-    },
-    {
-      "uid": "148233",
-      "summary": "\u2042 US Core PCE Price Index m/m",
-      "description": "Impact: High\n\nForecast: 0.2%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/85-us-core-pce-price-index-mm",
-      "url": "https://www.forexfactory.com/calendar/85-us-core-pce-price-index-mm",
-      "currency": "USD",
-      "impact": "High",
-      "dt_utc": "2026-07-30T12:30:00+00:00",
-      "dt_local": "2026-07-30T02:30:00-10:00"
-    },
-    {
-      "uid": "148557",
-      "summary": "\u2042 JN BOJ Outlook Report",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
-      "url": "https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-07-31T03:11:00+00:00",
-      "dt_local": "2026-07-30T17:11:00-10:00"
-    },
-    {
-      "uid": "148555",
-      "summary": "\u2042 JN BOJ Policy Rate",
-      "description": "Impact: High\n\nForecast: <1.00%\n\nPrevious: <1.00%\n\nView Event: https://www.forexfactory.com/calendar/641-jn-boj-policy-rate",
-      "url": "https://www.forexfactory.com/calendar/641-jn-boj-policy-rate",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-07-31T03:11:00+00:00",
-      "dt_local": "2026-07-30T17:11:00-10:00"
-    },
-    {
-      "uid": "148556",
-      "summary": "\u2042 JN Monetary Policy Statement",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/371-jn-monetary-policy-statement",
-      "url": "https://www.forexfactory.com/calendar/371-jn-monetary-policy-statement",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-07-31T03:11:00+00:00",
-      "dt_local": "2026-07-30T17:11:00-10:00"
-    },
-    {
-      "uid": "148558",
-      "summary": "\u2042 JN BOJ Press Conference",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/20-jn-boj-press-conference",
-      "url": "https://www.forexfactory.com/calendar/20-jn-boj-press-conference",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-07-31T06:30:00+00:00",
-      "dt_local": "2026-07-30T20:30:00-10:00"
-    },
-    {
-      "uid": "149225",
-      "summary": "\u2042 CA GDP m/m",
-      "description": "Impact: High\n\nForecast: 0.2%\n\nPrevious: 0.5%\n\nView Event: https://www.forexfactory.com/calendar/29-ca-gdp-mm",
-      "url": "https://www.forexfactory.com/calendar/29-ca-gdp-mm",
+      "uid": "149194",
+      "summary": "\u2042 CA Employment Change",
+      "description": "Impact: High\n\nForecast: 15.0K\n\nPrevious: 18.2K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
+      "url": "https://www.forexfactory.com/calendar/67-ca-employment-change",
       "currency": "CAD",
       "impact": "High",
-      "dt_utc": "2026-07-31T12:30:00+00:00",
-      "dt_local": "2026-07-31T02:30:00-10:00"
+      "dt_utc": "2026-08-07T12:30:00+00:00",
+      "dt_local": "2026-08-07T02:30:00-10:00"
+    },
+    {
+      "uid": "149195",
+      "summary": "\u2042 CA Unemployment Rate",
+      "description": "Impact: High\n\nForecast: 6.5%\n\nPrevious: 6.5%\n\nView Event: https://www.forexfactory.com/calendar/57-ca-unemployment-rate",
+      "url": "https://www.forexfactory.com/calendar/57-ca-unemployment-rate",
+      "currency": "CAD",
+      "impact": "High",
+      "dt_utc": "2026-08-07T12:30:00+00:00",
+      "dt_local": "2026-08-07T02:30:00-10:00"
+    },
+    {
+      "uid": "146934",
+      "summary": "\u2042 US Average Hourly Earnings m/m",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
+      "url": "https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-08-07T12:30:00+00:00",
+      "dt_local": "2026-08-07T02:30:00-10:00"
+    },
+    {
+      "uid": "146910",
+      "summary": "\u2042 US Non-Farm Employment Change",
+      "description": "Impact: High\n\nForecast: 88K\n\nPrevious: 57K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-08-07T12:30:00+00:00",
+      "dt_local": "2026-08-07T02:30:00-10:00"
+    },
+    {
+      "uid": "146922",
+      "summary": "\u2042 US Unemployment Rate",
+      "description": "Impact: High\n\nForecast: 4.2%\n\nPrevious: 4.2%\n\nView Event: https://www.forexfactory.com/calendar/56-us-unemployment-rate",
+      "url": "https://www.forexfactory.com/calendar/56-us-unemployment-rate",
+      "currency": "USD",
+      "impact": "High",
+      "dt_utc": "2026-08-07T12:30:00+00:00",
+      "dt_local": "2026-08-07T02:30:00-10:00"
     }
   ],
-  "sent_alerts": [
-    "146518|2026-07-29T18:30:00+00:00|30"
-  ]
+  "sent_alerts": []
 }
