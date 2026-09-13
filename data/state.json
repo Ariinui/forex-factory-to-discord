@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:43:01.577671+00:00",
+  "generated_at": "2026-09-13T17:43:15.712660+00:00",
   "last_summary_sent_at": "2026-09-07T20:49:21.944134+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -57,7 +57,7 @@
     {
       "uid": "146499",
       "summary": "\u2042 US Federal Funds Rate",
-      "description": "Impact: High\n\nPrevious: 3.75%\n\nView Event: https://www.forexfactory.com/calendar/1-us-federal-funds-rate",
+      "description": "Impact: High\n\nForecast: 3.75%\n\nPrevious: 3.75%\n\nView Event: https://www.forexfactory.com/calendar/1-us-federal-funds-rate",
       "url": "https://www.forexfactory.com/calendar/1-us-federal-funds-rate",
       "currency": "USD",
       "impact": "High",
