@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T18:59:51.660883+00:00",
+  "generated_at": "2026-09-18T09:26:04.236324+00:00",
   "last_summary_sent_at": "2026-09-14T21:03:57.541261+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -141,8 +141,8 @@
       "url": "https://www.forexfactory.com/calendar/641-jn-boj-policy-rate",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-09-18T02:30:00+00:00",
-      "dt_local": "2026-09-17T16:30:00-10:00"
+      "dt_utc": "2026-09-18T02:54:00+00:00",
+      "dt_local": "2026-09-17T16:54:00-10:00"
     },
     {
       "uid": "148560",
@@ -151,8 +151,8 @@
       "url": "https://www.forexfactory.com/calendar/371-jn-monetary-policy-statement",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-09-18T02:30:00+00:00",
-      "dt_local": "2026-09-17T16:30:00-10:00"
+      "dt_utc": "2026-09-18T02:54:00+00:00",
+      "dt_local": "2026-09-17T16:54:00-10:00"
     },
     {
       "uid": "148561",
@@ -161,8 +161,8 @@
       "url": "https://www.forexfactory.com/calendar/20-jn-boj-press-conference",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-09-18T05:30:00+00:00",
-      "dt_local": "2026-09-17T19:30:00-10:00"
+      "dt_utc": "2026-09-18T06:30:00+00:00",
+      "dt_local": "2026-09-17T20:30:00-10:00"
     }
   ],
   "sent_alerts": []
