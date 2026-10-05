@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T08:57:03.934231+00:00",
-  "last_summary_sent_at": "2026-09-28T22:38:59.106200+00:00",
+  "generated_at": "2026-10-05T23:22:29.925243+00:00",
+  "last_summary_sent_at": "2026-10-05T23:22:30.372023+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -25,9 +25,19 @@
       "dt_local": "2026-10-07T08:00:00-10:00"
     },
     {
+      "uid": "154102",
+      "summary": "\u2042 UK BOE Gov Bailey Speaks",
+      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
+      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
+      "currency": "GBP",
+      "impact": "High",
+      "dt_utc": "2026-10-08T12:15:00+00:00",
+      "dt_local": "2026-10-08T02:15:00-10:00"
+    },
+    {
       "uid": "149198",
       "summary": "\u2042 CA Employment Change",
-      "description": "Impact: High\n\nForecast: 9.0K\n\nPrevious: -41.7K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
+      "description": "Impact: High\n\nForecast: 6.2K\n\nPrevious: -41.7K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
       "url": "https://www.forexfactory.com/calendar/67-ca-employment-change",
       "currency": "CAD",
       "impact": "High",
