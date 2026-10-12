@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T18:14:54.539100+00:00",
-  "last_summary_sent_at": "2026-10-05T23:22:30.372023+00:00",
+  "generated_at": "2026-10-12T23:50:31.774650+00:00",
+  "last_summary_sent_at": "2026-10-12T23:50:32.324390+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -47,7 +47,7 @@
     {
       "uid": "148148",
       "summary": "\u2042 AU Employment Change",
-      "description": "Impact: High\n\nForecast: 20.0K\n\nPrevious: 39.5K\n\nView Event: https://www.forexfactory.com/calendar/73-au-employment-change",
+      "description": "Impact: High\n\nForecast: 19.6K\n\nPrevious: 39.5K\n\nView Event: https://www.forexfactory.com/calendar/73-au-employment-change",
       "url": "https://www.forexfactory.com/calendar/73-au-employment-change",
       "currency": "AUD",
       "impact": "High",
@@ -87,7 +87,7 @@
     {
       "uid": "148046",
       "summary": "\u2042 US Core Retail Sales m/m",
-      "description": "Impact: High\n\nForecast: 0.5%\n\nPrevious: 1.4%\n\nView Event: https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
+      "description": "Impact: High\n\nForecast: 0.6%\n\nPrevious: 1.4%\n\nView Event: https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
       "url": "https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm",
       "currency": "USD",
       "impact": "High",
@@ -97,7 +97,7 @@
     {
       "uid": "148390",
       "summary": "\u2042 US PPI m/m",
-      "description": "Impact: High\n\nForecast: 0.5%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/86-us-ppi-mm",
+      "description": "Impact: High\n\nForecast: 0.6%\n\nPrevious: 0.4%\n\nView Event: https://www.forexfactory.com/calendar/86-us-ppi-mm",
       "url": "https://www.forexfactory.com/calendar/86-us-ppi-mm",
       "currency": "USD",
       "impact": "High",
