@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:00:47.994769+00:00",
+  "generated_at": "2026-10-30T06:48:02.500374+00:00",
   "last_summary_sent_at": "2026-10-26T21:56:19.802306+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -195,14 +195,24 @@
       "dt_local": "2026-10-29T03:45:00-10:00"
     },
     {
+      "uid": "148564",
+      "summary": "\u2042 JN BOJ Outlook Report",
+      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
+      "url": "https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
+      "currency": "JPY",
+      "impact": "High",
+      "dt_utc": "2026-10-30T03:02:00+00:00",
+      "dt_local": "2026-10-29T17:02:00-10:00"
+    },
+    {
       "uid": "148562",
       "summary": "\u2042 JN BOJ Policy Rate",
       "description": "Impact: High\n\nForecast: <1.25%\n\nPrevious: <1.25%\n\nView Event: https://www.forexfactory.com/calendar/641-jn-boj-policy-rate",
       "url": "https://www.forexfactory.com/calendar/641-jn-boj-policy-rate",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-10-30T02:30:00+00:00",
-      "dt_local": "2026-10-29T16:30:00-10:00"
+      "dt_utc": "2026-10-30T03:02:00+00:00",
+      "dt_local": "2026-10-29T17:02:00-10:00"
     },
     {
       "uid": "148563",
@@ -211,18 +221,8 @@
       "url": "https://www.forexfactory.com/calendar/371-jn-monetary-policy-statement",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-10-30T02:30:00+00:00",
-      "dt_local": "2026-10-29T16:30:00-10:00"
-    },
-    {
-      "uid": "148564",
-      "summary": "\u2042 JN BOJ Outlook Report",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
-      "url": "https://www.forexfactory.com/calendar/426-jn-boj-outlook-report",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-10-30T02:31:00+00:00",
-      "dt_local": "2026-10-29T16:31:00-10:00"
+      "dt_utc": "2026-10-30T03:02:00+00:00",
+      "dt_local": "2026-10-29T17:02:00-10:00"
     },
     {
       "uid": "148565",
@@ -231,8 +231,8 @@
       "url": "https://www.forexfactory.com/calendar/20-jn-boj-press-conference",
       "currency": "JPY",
       "impact": "High",
-      "dt_utc": "2026-10-30T05:30:00+00:00",
-      "dt_local": "2026-10-29T19:30:00-10:00"
+      "dt_utc": "2026-10-30T06:30:00+00:00",
+      "dt_local": "2026-10-29T20:30:00-10:00"
     }
   ],
   "sent_alerts": []
