@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T19:27:28.672516+00:00",
-  "last_summary_sent_at": "2026-10-26T21:56:19.802306+00:00",
+  "generated_at": "2026-11-03T00:04:08.977883+00:00",
+  "last_summary_sent_at": "2026-11-03T00:04:09.492674+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -127,7 +127,7 @@
     {
       "uid": "149200",
       "summary": "\u2042 CA Employment Change",
-      "description": "Impact: High\n\nForecast: 14.5K\n\nPrevious: -68.3K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
+      "description": "Impact: High\n\nForecast: 14.6K\n\nPrevious: -68.3K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
       "url": "https://www.forexfactory.com/calendar/67-ca-employment-change",
       "currency": "CAD",
       "impact": "High",
@@ -157,7 +157,7 @@
     {
       "uid": "146914",
       "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 63K\n\nPrevious: 29K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "description": "Impact: High\n\nForecast: 65K\n\nPrevious: 29K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
       "currency": "USD",
       "impact": "High",
