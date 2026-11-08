@@ -1,198 +1,58 @@
 {
-  "generated_at": "2026-11-08T03:25:44.255550+00:00",
+  "generated_at": "2026-11-08T10:41:58.122963+00:00",
   "last_summary_sent_at": "2026-11-03T00:04:09.492674+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
     {
-      "uid": "147791",
-      "summary": "\u2042 AU Cash Rate",
-      "description": "Impact: High\n\nForecast: 4.85%\n\nPrevious: 4.60%\n\nView Event: https://www.forexfactory.com/calendar/21-au-cash-rate",
-      "url": "https://www.forexfactory.com/calendar/21-au-cash-rate",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T03:30:00+00:00",
-      "dt_local": "2026-11-02T17:30:00-10:00"
-    },
-    {
-      "uid": "148540",
-      "summary": "\u2042 AU RBA Monetary Policy Statement",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/415-au-rba-monetary-policy-statement",
-      "url": "https://www.forexfactory.com/calendar/415-au-rba-monetary-policy-statement",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T03:30:00+00:00",
-      "dt_local": "2026-11-02T17:30:00-10:00"
-    },
-    {
-      "uid": "147792",
-      "summary": "\u2042 AU RBA Rate Statement",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/22-au-rba-rate-statement",
-      "url": "https://www.forexfactory.com/calendar/22-au-rba-rate-statement",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T03:30:00+00:00",
-      "dt_local": "2026-11-02T17:30:00-10:00"
-    },
-    {
-      "uid": "147801",
-      "summary": "\u2042 AU RBA Press Conference",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/906-au-rba-press-conference",
-      "url": "https://www.forexfactory.com/calendar/906-au-rba-press-conference",
-      "currency": "AUD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T04:30:00+00:00",
-      "dt_local": "2026-11-02T18:30:00-10:00"
-    },
-    {
-      "uid": "146627",
-      "summary": "\u2042 US Congressional Elections",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/503-us-congressional-elections",
-      "url": "https://www.forexfactory.com/calendar/503-us-congressional-elections",
+      "uid": "148369",
+      "summary": "\u2042 US Core CPI m/m",
+      "description": "Impact: High\n\nForecast: 0.2%\n\nPrevious: 0.3%\n\nView Event: https://www.forexfactory.com/calendar/79-us-core-cpi-mm",
+      "url": "https://www.forexfactory.com/calendar/79-us-core-cpi-mm",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-11-03T15:16:00+00:00",
-      "dt_local": "2026-11-03T05:16:00-10:00"
+      "dt_utc": "2026-11-10T13:30:00+00:00",
+      "dt_local": "2026-11-10T03:30:00-10:00"
     },
     {
-      "uid": "149119",
-      "summary": "\u2042 NZ Employment Change q/q",
-      "description": "Impact: High\n\nForecast: 0.4%\n\nPrevious: 0.5%\n\nView Event: https://www.forexfactory.com/calendar/74-nz-employment-change-qq",
-      "url": "https://www.forexfactory.com/calendar/74-nz-employment-change-qq",
-      "currency": "NZD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T21:45:00+00:00",
-      "dt_local": "2026-11-03T11:45:00-10:00"
-    },
-    {
-      "uid": "149120",
-      "summary": "\u2042 NZ Unemployment Rate",
-      "description": "Impact: High\n\nForecast: 5.5%\n\nPrevious: 5.6%\n\nView Event: https://www.forexfactory.com/calendar/65-nz-unemployment-rate",
-      "url": "https://www.forexfactory.com/calendar/65-nz-unemployment-rate",
-      "currency": "NZD",
-      "impact": "High",
-      "dt_utc": "2026-11-03T21:45:00+00:00",
-      "dt_local": "2026-11-03T11:45:00-10:00"
-    },
-    {
-      "uid": "150723",
-      "summary": "\u2042 UK BOE Monetary Policy Report",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/418-uk-boe-monetary-policy-report",
-      "url": "https://www.forexfactory.com/calendar/418-uk-boe-monetary-policy-report",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-05T12:00:00+00:00",
-      "dt_local": "2026-11-05T02:00:00-10:00"
-    },
-    {
-      "uid": "150725",
-      "summary": "\u2042 UK Monetary Policy Summary",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/628-uk-monetary-policy-summary",
-      "url": "https://www.forexfactory.com/calendar/628-uk-monetary-policy-summary",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-05T12:00:00+00:00",
-      "dt_local": "2026-11-05T02:00:00-10:00"
-    },
-    {
-      "uid": "150726",
-      "summary": "\u2042 UK MPC Official Bank Rate Votes",
-      "description": "Impact: High\n\nForecast: 7-0-2\n\nPrevious: 3-0-6\n\nView Event: https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
-      "url": "https://www.forexfactory.com/calendar/305-uk-mpc-official-bank-rate-votes",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-05T12:00:00+00:00",
-      "dt_local": "2026-11-05T02:00:00-10:00"
-    },
-    {
-      "uid": "150724",
-      "summary": "\u2042 UK Official Bank Rate",
-      "description": "Impact: High\n\nForecast: 4.00%\n\nPrevious: 3.75%\n\nView Event: https://www.forexfactory.com/calendar/15-uk-official-bank-rate",
-      "url": "https://www.forexfactory.com/calendar/15-uk-official-bank-rate",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-05T12:00:00+00:00",
-      "dt_local": "2026-11-05T02:00:00-10:00"
-    },
-    {
-      "uid": "155383",
-      "summary": "\u2042 UK BOE Gov Bailey Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-05T12:30:00+00:00",
-      "dt_local": "2026-11-05T02:30:00-10:00"
-    },
-    {
-      "uid": "149200",
-      "summary": "\u2042 CA Employment Change",
-      "description": "Impact: High\n\nForecast: 14.6K\n\nPrevious: -68.3K\n\nView Event: https://www.forexfactory.com/calendar/67-ca-employment-change",
-      "url": "https://www.forexfactory.com/calendar/67-ca-employment-change",
-      "currency": "CAD",
-      "impact": "High",
-      "dt_utc": "2026-11-06T13:30:00+00:00",
-      "dt_local": "2026-11-06T03:30:00-10:00"
-    },
-    {
-      "uid": "149201",
-      "summary": "\u2042 CA Unemployment Rate",
-      "description": "Impact: High\n\nForecast: 6.5%\n\nPrevious: 6.5%\n\nView Event: https://www.forexfactory.com/calendar/57-ca-unemployment-rate",
-      "url": "https://www.forexfactory.com/calendar/57-ca-unemployment-rate",
-      "currency": "CAD",
-      "impact": "High",
-      "dt_utc": "2026-11-06T13:30:00+00:00",
-      "dt_local": "2026-11-06T03:30:00-10:00"
-    },
-    {
-      "uid": "146937",
-      "summary": "\u2042 US Average Hourly Earnings m/m",
-      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.1%\n\nView Event: https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
-      "url": "https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm",
+      "uid": "148339",
+      "summary": "\u2042 US CPI m/m",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.6%\n\nView Event: https://www.forexfactory.com/calendar/78-us-cpi-mm",
+      "url": "https://www.forexfactory.com/calendar/78-us-cpi-mm",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-11-06T13:30:00+00:00",
-      "dt_local": "2026-11-06T03:30:00-10:00"
+      "dt_utc": "2026-11-10T13:30:00+00:00",
+      "dt_local": "2026-11-10T03:30:00-10:00"
     },
     {
-      "uid": "146914",
-      "summary": "\u2042 US Non-Farm Employment Change",
-      "description": "Impact: High\n\nForecast: 65K\n\nPrevious: 29K\n\nView Event: https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
-      "url": "https://www.forexfactory.com/calendar/66-us-non-farm-employment-change",
+      "uid": "151570",
+      "summary": "\u2042 UK GDP m/m",
+      "description": "Impact: High\n\nForecast: 0.0%\n\nPrevious: 0.1%\n\nView Event: https://www.forexfactory.com/calendar/804-uk-gdp-mm",
+      "url": "https://www.forexfactory.com/calendar/804-uk-gdp-mm",
+      "currency": "GBP",
+      "impact": "High",
+      "dt_utc": "2026-11-12T07:00:00+00:00",
+      "dt_local": "2026-11-11T21:00:00-10:00"
+    },
+    {
+      "uid": "148405",
+      "summary": "\u2042 US Core PPI m/m",
+      "description": "Impact: High\n\nForecast: 0.3%\n\nPrevious: 0.7%\n\nView Event: https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
+      "url": "https://www.forexfactory.com/calendar/87-us-core-ppi-mm",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-11-06T13:30:00+00:00",
-      "dt_local": "2026-11-06T03:30:00-10:00"
+      "dt_utc": "2026-11-13T13:30:00+00:00",
+      "dt_local": "2026-11-13T03:30:00-10:00"
     },
     {
-      "uid": "146925",
-      "summary": "\u2042 US Unemployment Rate",
-      "description": "Impact: High\n\nForecast: 4.2%\n\nPrevious: 4.2%\n\nView Event: https://www.forexfactory.com/calendar/56-us-unemployment-rate",
-      "url": "https://www.forexfactory.com/calendar/56-us-unemployment-rate",
+      "uid": "148392",
+      "summary": "\u2042 US PPI m/m",
+      "description": "Impact: High\n\nForecast: 0.4%\n\nPrevious: 1.3%\n\nView Event: https://www.forexfactory.com/calendar/86-us-ppi-mm",
+      "url": "https://www.forexfactory.com/calendar/86-us-ppi-mm",
       "currency": "USD",
       "impact": "High",
-      "dt_utc": "2026-11-06T13:30:00+00:00",
-      "dt_local": "2026-11-06T03:30:00-10:00"
-    },
-    {
-      "uid": "155374",
-      "summary": "\u2042 JN BOJ Gov Ueda Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/892-jn-boj-gov-ueda-speaks",
-      "url": "https://www.forexfactory.com/calendar/892-jn-boj-gov-ueda-speaks",
-      "currency": "JPY",
-      "impact": "High",
-      "dt_utc": "2026-11-06T16:00:00+00:00",
-      "dt_local": "2026-11-06T06:00:00-10:00"
-    },
-    {
-      "uid": "149125",
-      "summary": "\u2042 NZ Parliamentary Elections",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/410-nz-parliamentary-elections",
-      "url": "https://www.forexfactory.com/calendar/410-nz-parliamentary-elections",
-      "currency": "NZD",
-      "impact": "High",
-      "dt_utc": "2026-11-06T21:45:00+00:00",
-      "dt_local": "2026-11-06T11:45:00-10:00"
+      "dt_utc": "2026-11-13T13:30:00+00:00",
+      "dt_local": "2026-11-13T03:30:00-10:00"
     }
   ],
   "sent_alerts": []
