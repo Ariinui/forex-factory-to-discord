@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:10:54.494304+00:00",
+  "generated_at": "2026-11-16T02:05:09.749151+00:00",
   "last_summary_sent_at": "2026-11-10T00:52:43.782990+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
@@ -93,16 +93,6 @@
       "impact": "High",
       "dt_utc": "2026-11-18T07:00:00+00:00",
       "dt_local": "2026-11-17T21:00:00-10:00"
-    },
-    {
-      "uid": "155897",
-      "summary": "\u2042 UK BOE Gov Bailey Speaks",
-      "description": "Impact: High\n\nView Event: https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "url": "https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks",
-      "currency": "GBP",
-      "impact": "High",
-      "dt_utc": "2026-11-18T07:30:00+00:00",
-      "dt_local": "2026-11-17T21:30:00-10:00"
     },
     {
       "uid": "155898",
