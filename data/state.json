@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T17:55:04.922198+00:00",
-  "last_summary_sent_at": "2026-11-17T01:07:28.966797+00:00",
+  "generated_at": "2026-11-24T03:29:01.289822+00:00",
+  "last_summary_sent_at": "2026-11-24T03:29:01.625388+00:00",
   "source_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.ics",
   "timezone": "Pacific/Tahiti",
   "events": [
@@ -17,7 +17,7 @@
     {
       "uid": "149102",
       "summary": "\u2042 AU CPI y/y",
-      "description": "Impact: High\n\nForecast: 4.8%\n\nPrevious: 4.3%\n\nView Event: https://www.forexfactory.com/calendar/888-au-cpi-yy",
+      "description": "Impact: High\n\nForecast: 4.7%\n\nPrevious: 4.3%\n\nView Event: https://www.forexfactory.com/calendar/888-au-cpi-yy",
       "url": "https://www.forexfactory.com/calendar/888-au-cpi-yy",
       "currency": "AUD",
       "impact": "High",
